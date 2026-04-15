@@ -1,0 +1,73 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #e6e6e6;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+}
+.row{
+    margin-bottom: 30px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 3px solid #333;
+}
+.bio{
+    max-width: 500px;
+}
+/*lists*/
+.lists{
+    display: flex;
+    align-items: stretch;
+
+}
+.column{
+    width: 45%;
+}
+.divider{
+    width: 2px;
+    background: black;
+    margin: 0 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th , td{
+    padding: 10px;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    gap: 40px;
+   margin-top: 20px;
+
+}  
+.contact-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+.contact-item img{
+    width: 30px;
+    height: 30px;
+    
+}
