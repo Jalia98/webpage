@@ -53,7 +53,7 @@ th , td{
     text-align: center;
 }
 .contact{
-    display: inline;
+    display: inline-block;
     justify-content: space-between;    
     align-items: center;
     gap: 40px;
@@ -61,7 +61,7 @@ th , td{
 
 }  
 .contact-item{
-    display: inline;
+    display: flex;
     align-items: center;
     gap: 10px;
    
