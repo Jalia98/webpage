@@ -52,7 +52,7 @@ th , td{
     padding: 10px;
     text-align: center;
 }
-.container{
+.contact-container{
     display: flex;
     justify-content: space-between;    
     align-items: center;
